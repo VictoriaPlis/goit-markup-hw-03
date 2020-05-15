@@ -1,0 +1,285 @@
+/* font-family: Roboto;
+цвет основного текста  #212121
+цвет второстепенного текста #757575
+цвет текста на картинках  #FFFFFF
+цвет текста акцента #2196F3
+цвет текста футер почта, телефон, рамка, e-mail rgba(255, 255, 255, 0.6);
+цвет фона картинок портфолио  rgba(33, 150, 243, 0.9);
+цвет фона кнопок #2196F3
+цвет фото кнопок раздела #F5F4FA;
+
+line-height множителем
+color: var(--primary-text-color)
+
+*/
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --banner-text-color: #FFFFFF;
+    --image-color: rgba(33, 150, 243, 0.9);
+    --button-color-primary: #F5F4FA;
+    
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    text-decoration: none;
+    
+}
+.logo {
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;    
+    line-height: 1.2px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+
+}
+
+.logo-footer {
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 22px;    
+    line-height: 1.2px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+
+}
+
+
+
+.logo-studio {
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;    
+    line-height: 1.2px;
+    letter-spacing: 0.03em;
+    color: black;
+}
+
+.logo-studio-footer {
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 22px;    
+    line-height: 1.2px;
+    letter-spacing: 0.03em;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+address {
+    font-style: normal;
+
+}
+
+.nav-link {
+    color: var(--title-text-color);
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+
+.main-title {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;    
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+    background-color: var(--button-color-primary);
+}
+.main-title:hover,
+.main-title:focus {
+    background-color: var(--accent-color);
+    color: var(--banner-text-color);
+    }
+
+.title-hero {
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.37;
+    letter-spacing: 0.06em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: rgba(47, 48, 58, 0.8);
+}
+
+.subtitle-hero {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+    
+}
+
+.list-advantages {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+
+}
+
+.text-advantages {
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 2;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+
+}
+
+.description {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--title-text-color);
+}
+
+.description-list {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--banner-text-color);
+    background-color: rgba(47, 48, 58, 0.8);;
+
+}
+
+.team-list {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+.team-profession {
+    font-family: Roboto;    
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+
+
+}
+
+li {
+    list-style: none;
+}
+
+.banner-text {
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 1.6;  
+    color: var(--banner-text-color);
+    background-color: var(--accent-color);
+}
+
+.description-banner-text {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 1.875;
+    color: var(--primary-text-color);
+}
+
+/*button*/
+.button-primary {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+.button-primary:hover,
+.button-primary:focus {
+  color: var(--accent-color);
+}
+
+.button-footer {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);;
+}
+
+
+.button-footer-sub {
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    color: var(--banner-text-color);
+    background-color: var(--accent-color);
+
+}
+
+.p-footer {
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.footer-title{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--banner-text-color)
+
+}
+footer {
+    background-color: #2F303A;;
+}
+
+.address-title {
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 2;
+    letter-spacing: 0.03em;
+    color: var(--banner-text-color)
+
+}
+
+.address {
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 2; 
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
