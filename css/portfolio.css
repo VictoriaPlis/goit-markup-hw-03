@@ -490,9 +490,6 @@ address {
 .portfolio-list {
     display: flex;
     justify-content: center;
-    
-    padding-top: 93px;
-    padding-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
     padding-inline-start: 0px;
@@ -523,7 +520,9 @@ address {
   color: var(--accent-color);
 }
 
-
+.card-set {
+    padding-top: 93px;
+}
 
 .card-set__container {
     display: flex;
@@ -532,10 +531,12 @@ address {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0 auto;
     padding-bottom: 94px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 50px;
+
+    
 }
 .card-set__item {
     display: flex;
@@ -543,6 +544,7 @@ address {
     margin-block-start: 0em;
     margin-block-end: 0em;
     padding-inline-start: 0px;
+
     
 
 }
@@ -550,7 +552,8 @@ address {
 .card-set__list {
     margin-right: 30px;
     margin-bottom: 30px;
-
+    margin-block-start: 0em;
+    margin-block-end: 0em;
     width: 370px;
     height: 404px;
     background: #FFFFFF;    
@@ -577,6 +580,8 @@ address {
     letter-spacing: 0.06em;
     color: #212121;
     margin-left: 20px;
+    margin-block-start: 0em;
+margin-block-end: 0em;
 
 }
 
@@ -588,6 +593,8 @@ address {
     color: #757575;
     margin-bottom: 20px;
     margin-left: 20px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
 
 }
 
@@ -695,7 +702,7 @@ footer {
     width: 1230px;
     
 }
-.address {
+.footer-adress {
     font-family: Roboto;
     font-size: 14px;
     line-height: 2; 
@@ -703,7 +710,12 @@ footer {
     color: rgba(255, 255, 255, 0.6);
     padding-top: 48px;
     padding-bottom: 28px;
+    margin-right: 69px;
     
+}
+
+.footer-socials {
+    margin-right: 93px;
 }
 
 .footer__socials {
@@ -712,4 +724,5 @@ footer {
     margin-block-end: 0em;
     padding-inline-start: 0px;
     margin-top: 39px;
+    margin-right: 93px;
 }
