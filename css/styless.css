@@ -41,6 +41,12 @@ li {
     list-style: none;
 }
 
+ul {    
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding-inline-start: 0px;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -79,6 +85,7 @@ li {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    color: #212121;
 
 }
 
@@ -238,13 +245,17 @@ address {
     
 }
 
-
+.advantages {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 .container.adv-nav {
     margin-left: auto;
     margin-right: auto;
-    width: 1230px;
-    padding: 94px 15px;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
 
 }
 
@@ -258,14 +269,23 @@ address {
 }
 
 .adv-nav .item {
-    width: 278px;
+    width: 270px;
 }
 
 .adv-nav .item:not(:last-child) {
     margin-right: 30px;
 }
 
-
+.adv-nav-title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
 
 .list-advantages {
     font-family: Roboto;
@@ -293,31 +313,33 @@ address {
 
 .container.description {
     display: block;
+    box-sizing: content-box;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    width: 1200px;
+    width: 1170px;
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 94px;
     border-top: 1px solid #ECECEC;
 
 }
 
 
-.description .h2 {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
+.description-title {
     font-family: Roboto;
+    font-style: normal;
     font-weight: bold;
     font-size: 36px;
     line-height: 1.16;
+    text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding-top: 94px;
+    padding-bottom: 50px;
 
+   
 }
 
 
@@ -337,6 +359,7 @@ address {
     margin-block-start: 0em;
     margin-block-end: 0em;
     padding-inline-start: 0px;
+    padding-bottom: 94px;
 
 }
 
@@ -459,6 +482,10 @@ address {
     margin-right: 30px;
 }
 
+.clients {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 .container-clients {
     margin-left: auto;
@@ -466,8 +493,6 @@ address {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 94px;
-    padding-bottom: 94px;
     display: block;
     
 }
