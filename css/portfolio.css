@@ -444,6 +444,7 @@ li {
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 address {
@@ -647,8 +648,11 @@ margin-block-end: 0em;
 .copyright {
     display: flex;
     justify-content: center;
+    width: 1200px;
     padding-top: 18px;
     padding-bottom: 21px;
+    margin-left: auto;
+    margin-right: auto;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -700,8 +704,8 @@ footer {
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 48px;
-    width: 1230px;
-    
+    padding-bottom: 28px;
+    width: 1200px;
 }
 .footer-adress {
     font-family: Roboto;
