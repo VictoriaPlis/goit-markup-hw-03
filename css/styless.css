@@ -322,18 +322,19 @@ a {
 
 }
 .description {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1170px;
     padding-top: 94px;
     padding-bottom: 94px;
     border-top: 1px solid #ECECEC;
+
 }
 
 .container-description {
     display: block;
     box-sizing: content-box;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1170px;
     padding-left: 15px;
     padding-right: 15px;
     
@@ -368,7 +369,6 @@ a {
     color: var(--white-color);
     
     display: flex;
-    flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
     margin-block-start: 0em;
