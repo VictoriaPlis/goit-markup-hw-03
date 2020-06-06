@@ -468,11 +468,6 @@ address {
 }
 
 
-
-
-
-
-
 .main-title {
     font-family: Roboto;
     font-weight: 500;
@@ -548,6 +543,7 @@ address {
     margin-block-start: 0em;
     margin-block-end: 0em;
     padding-inline-start: 0px;
+    
 
     
 
@@ -564,8 +560,6 @@ address {
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
     border-radius: 5px;
-    
-
 }
 
 .card-set__list:nth-child(3n) {
@@ -576,6 +570,9 @@ address {
     margin-bottom: 0;
 }
 
+.card-set__list:nth-last-child(n + 4) {
+    margin-bottom: 30px;
+}
 .card-set__title {
     font-family: Roboto;
     font-weight: bold;
@@ -584,8 +581,8 @@ address {
     letter-spacing: 0.06em;
     color: #212121;
     margin-left: 24px;
-    margin-block-start: 0em;
-margin-block-end: 0em;
+    margin-block-start: 0em;    
+    margin-block-end: 0em;
 
 }
 
